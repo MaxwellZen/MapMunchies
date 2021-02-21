@@ -1,0 +1,67 @@
+<html>
+
+  <head>
+
+  <meta name="google-signin-scope" content="profile email">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="google-signin-client_id" content="138370122056-fpevjpa2bgg0vkptfedcr1ojpdnhmsh3.apps.googleusercontent.com">
+  <script src="https://apis.google.com/js/platform.js" async defer></script>
+  <link rel="stylesheet" href="profile.css">
+
+  </head>
+
+  <body>
+
+    <div class="btn g-signin2 btn" id="signin" data-onsuccess="onSignIn" data-theme="dark" style="display:none;"> </div>
+
+
+
+    <div id="mySidebar" class="sidebar">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="index.html">Home</a>
+      <a href="explore.py">Explore Map</a>
+
+      <a href="stories.html">Stories Database</a>
+      <a href="#">About</a>
+      <a href="login.html" onclick="signOut();" id="signout">Sign out</a>
+      <div id="profileinfo"> </div>
+	  </div>
+
+    <div id="main">
+    <button class="openbtn" onclick="openNav();">&#9776;</button>
+
+
+
+    <br><br><br>
+    <table>
+      <tr>
+        <td div class = "b">
+          <h1>PROFILE</h1>
+          <br><br>
+          <img class="pfp" src="PFP">
+          <br><br><br><br><br>
+          <h2> NAME </h2>
+          <br><br><br>
+          <h3>EMAIL</h3>
+          <br><br><br><br><br>
+          <!-- <h1> BIO </h1> -->
+          <br><br><br><br><br>
+          <br><br><br><br><br>
+        </td>
+
+
+        <td div class = "c">
+
+          <h1> POSTS </h1> <br>
+
+          PUTTHEPOSTSHERE
+
+        </td>
+      </tr>
+
+    </table>
+
+  </body>
+  <script src="profile.js"></script>
+
+</html>

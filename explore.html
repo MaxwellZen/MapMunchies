@@ -1,0 +1,34 @@
+<DOCTYPE html>
+	<html lang="en">
+
+	<head>
+		<title>
+			Interactive Map
+		</title>
+		<link rel="stylesheet" href="explore.css">
+		<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+		 crossorigin="" />
+		<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+		 crossorigin="">
+
+		</script>
+
+		<style>
+			
+		</style>
+		<center><h1>Interactive Map</h1></center>
+
+	</head>
+
+	<body>
+    <p>Toggle Light/Dark Mode</p>
+
+        <label class="switch">
+          <input type="checkbox" id="darkmode" onclick="toggle()">
+          <span class="slider round"></span>
+        </label>
+		<div id="aroundmap"><div id="mapid"></div></div>
+		<!--script-->
+	</body>
+
+	</html>
